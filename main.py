@@ -4,9 +4,15 @@
 Pure standard library, no network. Writes the line to /output/entry.txt
 and prints it to stdout.
 
-The line answers four billion years of wishes, howls and 2 a.m.
-promises with the Moon's own weary accounting: all that longing,
-and its only souvenirs are a flag and a golf ball.
+The joke is built on the Moon's ledger: four billion years of
+listening, and the bill it sends back. Wishes, howls and 2 a.m.
+promises are the three things people have always aimed at the sky,
+so the line names all three, then pays them off with the only two
+things humanity ever actually left up there — a flag and a golf
+ball. The Moon comes off old, wry and faintly underpaid, which is
+the voice the brief asks for, and the turn lands in one read
+because the grandeur of "four billion years" collapses into
+souvenirs.
 """
 
 import os
@@ -15,7 +21,9 @@ OUTPUT_PATH = "/output/entry.txt"
 
 
 def get_line() -> str:
-    """Return the entry line: the Moon's reply to every wish ever made on it."""
+    """Return the entry line: the Moon totals up four billion years of
+    wishes, howls and late-night promises and presents its souvenirs.
+    """
     return (
         "Four billion years of wishes, howls, and 2 a.m. promises "
         "— and all I ever got was a flag and a golf ball."
